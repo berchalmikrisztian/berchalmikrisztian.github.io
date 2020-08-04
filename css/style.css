@@ -1,0 +1,163 @@
+@font-face {
+    src: url("/fonts/Oswald/Oswald-Regular.ttf");
+    font-family: "Oswald";
+    font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+html {
+    background-color: #FFFACD;
+    background-image:  url("/img/pattern/pattern.png");
+    background-size: 140px;
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Oswald", 'Times New Roman', Arial;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+}
+
+h3 {
+    color: #FF0000;
+    text-align: center;
+}
+
+.kinalat {
+    padding: 10px;
+}
+
+.food-images {
+    margin: 1%;
+    width: 17.5%;
+    box-shadow: 2px 2px 5px #777777;
+}
+
+div[class*="divs"] {
+    padding: 15px;
+    border: solid 2px #c0c0c0;
+}
+
+p {
+    max-width: 75%;
+}
+
+p span[class="green-span"] {
+    color: green;
+    font-weight: bold;
+}
+
+.restaurant-pic {
+    height: 200px;
+    margin: 1%;
+    width: 22.7%;
+}
+
+html body div.logo {
+    text-align: center;
+}
+
+div.logo a img.logo {
+    width: 30px;
+    box-shadow: 2px 2px 10px blue;
+
+}
+
+img[alt="Megközelítés"] {
+    border: solid 2px #c0c0c0;
+}
+
+img[alt=up] {
+    width: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+html body .login-div {
+    padding: 15px;
+    border: solid 2px #c0c0c0;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-div input[name^="email"]:focus {
+    border: solid 1px blue;
+    border: none;
+    box-shadow: 2px 2px 30px blue;
+}
+
+.login-div input[name*="password"]:active {
+    border: solid 1px red;
+    border: none;
+    box-shadow: 2px 2px 30px red;
+}
+
+.login-div button[class^="submit-btn"]:hover {
+    box-shadow: 0 0 3px green;
+}
+
+ol li:first-child {
+    color: blue;
+}
+
+ol li:last-child {
+    color: green;
+}
+
+ol li:nth-child(4) {
+    color: red;
+}
+
+.big {
+    display: inline-block;
+}
+
+.message-div {
+    border: solid 2px #777777;
+    display: inline-block;
+}
+
+form div input {
+    display: block;
+    margin: 15px;
+}
+
+form div textarea {
+    display: block;
+    margin: 15px;
+}
+
+.checkbox {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+}
+
+.problem {
+    border: solid 2px #777777
+}
+
+.question {
+    border: solid 2px #777777
+}
+
+input[type="radio"] {
+    display: inline-block;
+}

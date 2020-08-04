@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Panasz bejelentése</title>
+    <link rel="stylesheet" href="/css/style.css">
+    </link>
+</head>
+
+<body>
+    <h1>Panasz bejelentése</h1>
+    <ul>
+        <li><a href="/index.html">Főoldal</a></li>
+        <li><a href="submit.html">Feliratkozás</a></li>
+        <li><a href="registration.html">Regisztráció</a></li>
+        <li><a href="about.html">Rólunk</a></li>
+    </ul>
+    <form class="big">
+        <fieldset class=message-div>
+            <legend>Személyes Adatok</legend>
+            <div>
+                <label for="name">Név</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label for="address">Cím</label>
+                <input id="address" name="address" type="text" required>
+            </div>
+            <div>
+                <label for="name">Megjegyzés</label>
+                <textarea id="comment" name="comment" rows="5"></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="problem">
+            <legend>Probléma felvétel</legend>
+            <span>Tapasztalt probléma</span>
+            <div class="checkbox">
+                <input id="buy" name="buy" type="checkbox" value="1">
+                <label for="buy">Hibás rendelésfelvétel</label>
+            </div>
+            <div class="checkbox">
+                <input id="trans" name="trans" type="checkbox" value="1">
+                <label for="trans">Kiszállítási probléma</label>
+            </div>
+            <div class="checkbox">
+                <input id="quality" name="quality" type="checkbox" value="1">
+                <label for="quality">Minőségi probléma</label>
+            </div>
+        </fieldset>
+        <fieldset class="question">
+            <legend>Gyakorisága</legend>
+            <span>Milyen sűrűn történik?</span>
+            <div>
+                <input name="tapasztalat" type="radio" id="tapasztalat1">
+                <label for="tapasztalat1">Először tapasztaltam</label>
+            </div>
+            <div>
+                <input name="tapasztalat" type="radio" id="tapasztalat2">
+                <label for="tapasztalat2">Ritkán előfordul</label>
+            </div>
+            <div>
+                <input name="tapasztalat" type="radio" id="tapasztalat3">
+                <label for="tapasztalat3">Sűrűn előfordul</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Kapcsolatfelvétel</legend>
+            <div>
+                <label for="search"></label>
+                <select id="search" name="search">
+                    <option value="1">Telefonon</option>
+                    <option value="2">Emailben</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
